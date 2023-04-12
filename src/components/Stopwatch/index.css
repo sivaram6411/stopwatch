@@ -1,0 +1,112 @@
+/* Write CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    padding-left: 100px;
+    align-items: flex-start;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 500;
+  color: #333333;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+    padding-left: 10px;
+  }
+}
+.sub-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .sub-container {
+    padding: 15px;
+  }
+}
+.timer-text-container {
+  display: flex;
+  align-items: center;
+}
+.image {
+  height: 30px;
+  width: 30px;
+}
+.timer-text {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #333333;
+  padding-left: 10px;
+}
+.show-timer {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 0px;
+}
+.btn-container {
+  display: flex;
+}
+.start-btn {
+  height: 30px;
+  width: 80px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #1db05f;
+  border-radius: 5px;
+  margin: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.stop-btn {
+  height: 30px;
+  width: 80px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ef0d36;
+  border-radius: 5px;
+  margin: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.reset-btn {
+  height: 30px;
+  width: 80px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #eaa800;
+  border-radius: 5px;
+  margin: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
